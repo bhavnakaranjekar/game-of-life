@@ -66,10 +66,9 @@
                         <goals>
                             <goal>test</goal>
                         </goals>
-                        <configuration>
-                            <skip>false</skip>
-                            <includes>
-                                <include>%regex[.*integration.*]</include>
+
+                    <configuration>
+		    <skip>false</skip>
                             </includes>
                         </configuration>
                     </execution>
