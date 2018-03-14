@@ -69,8 +69,8 @@
 
                     <configuration>
 		    <skip>false</skip>
-                            </includes>
-                        </configuration>
+                        <include> </includes>
+                     </configuration>
                     </execution>
                 </executions>
             </plugin>
